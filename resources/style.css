@@ -1,0 +1,79 @@
+.Logo_Imagen {
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+header {
+    text-align: center;
+    /*background: url('./img/Logo_02.png') no-repeat ; */
+    background-size: cover;
+    background-color: black;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+
+  header {
+    line-height: 1.5;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 1500px;
+    text-align: justify;
+    background: #5d8ee7;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+
+  .card:hover {
+    border-color: #c7c7cc;
+  }
+
+  ul.especialidades {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .especialidades li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .especialidades li:nth-child(odd) {
+    background: #0a0879;
+  }
+
+  .flex {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1500px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.Formato_texto_01 {
+  color:antiquewhite;
+ }
+
+.Formato_texto_02 {
+  color: aquamarine;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+ }
+
+.Formato_texto_03 {
+  color: firebrick;
+ }
